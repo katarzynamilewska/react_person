@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { Person } from './components/Person';
+import { Person } from './components/Person/Person';
 
 export const misha = {
   name: 'Misha',
@@ -17,12 +17,7 @@ export const olya = {
   partnerName: 'Maksym',
 };
 
-export const alex = {
-  name: 'Alex',
-  age: 25,
-  sex: 'm',
-  isMarried: false,
-};
+export const alex = { name: 'Alex', age: 25, sex: 'm', isMarried: false };
 
 export const App = () => (
   <div className="App">
